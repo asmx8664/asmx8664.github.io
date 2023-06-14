@@ -40,7 +40,7 @@ Grosso modo, deux grandes familles sont retrouvées dans le monde de la cybersé
 
 Que vous apparteniez à l'une ou à l'autre, cette formation est faite pour vous. Que vous soyez du côté **exécutif** ou **managérial** également. Aucune notion d'assembleur n'est requise pour suivre cette formation qui est principalement dédiée aux **débutants**.
 
-Pour ceux qui appartiennent au côté défensif, il est intéressant de connaître l'assembleur car l'analyse de code malveillant est en grande partie effectuée dans ce langage. En effet, lorsqu'une machine se fait compromettre, les binaires malveillants en sont extraits (soit directement, soit par capture de **RAM**) puis analysés. Le code source n'étant pas disponible, il est alors nécessaire de le désassembler afin d'en comprendre les fonctionnalités et d'en tirer des indices de compromission.
+Pour ceux qui appartiennent au côté défensif, il est intéressant de connaître l'assembleur car l'analyse de code malveillant est en grande partie effectuée dans ce langage. En effet, lorsqu'une machine se fait compromettre, les binaires malveillants en sont extraits (soit directement, soit par capture de **RAM**) puis analysés. Le code source n'étant pas disponible, il est alors nécessaire de le désassembler afin d'en comprendre les fonctionnalités et d'en tirer des indices de compromissions.
 
 Concernant ceux qui sont du côté offensif, la modification de shellcodes existants ou la création de shellcodes optimisés pour une attaque en particulier est un avantage décisif. Effectivement, il n'est pas recommandé d'utiliser n'importe quel shellcode trouvé sur le net. D'autant que la plupart de ceux disponibles ont déjà été catégorisés comme malveillant par les solution d'antivirus.
 
@@ -57,7 +57,7 @@ Le tarif est fixé à:
 
 * ?€/h soit ?€ pour l'ensemble de la formation
 
-Il s'agit d'une formation en groupe (petit):
+Il s'agit d'une formation en groupe restreint:
 
 * 10-12 personnes maximum
 
@@ -84,7 +84,7 @@ Merci de vérifier les prérequis suivants avant de souscrire à la formation.
 Afin de pouvoir suivre la formation, il est nécessaire d'avoir un environnement adéquate:
 
 * un processeur intel ou amd
-* un OS Windows et un OS Linux (kali)
+* un OS Windows **ET** un OS Linux (kali)
 * 8-16 Go de RAM
 
 ## Installation des OS
@@ -112,18 +112,18 @@ Plutôt que d'installer la _VM_ de développement fournie par Microsoft, il est 
 
 ![C++ components](/img/index/cpp_components.png)
 
-Afin de débugger le code, il est nécessaire d'installer un debugger:
+Afin de débugger du code, il est nécessaire d'installer un debugger:
 
 * **WinDbg Preview** depuis le Microsoft Store
 * **x64dbg** depuis ce [lien](https://x64dbg.com/)
 
 Il peut être utile d'installer un désassembleur comme [IDA Free](https://hex-rays.com/ida-free/)
 
-Installer ensuite [Visual Studio Code](https://code.visualstudio.com/download) pour coder. Une fois installé, ajouter le plugins **ASM Code Lens** comme sur la figure ci-dessous:
+Installer ensuite [Visual Studio Code](https://code.visualstudio.com/download) comme éditeur de code. Une fois installé, ajouter le plugins **ASM Code Lens** (coloration syntaxique) comme sur la figure ci-dessous:
 
 ![asm code lens](/img/index/asm_code_lens.png)
 
 Un éditeur hexadécimal est également requis, utiliser [HxD](https://www.lesnumeriques.com/telecharger/hxd-hex-editor-20536) par exemple.
 
-Et enfin, l'outil [CFF Explorer](https://ntcore.com/?page_id=388) afin de constater la structure d'un exécutable.
+Et enfin, télécharger et installé l'outil [CFF Explorer](https://ntcore.com/?page_id=388) afin de constater la structure d'un exécutable.
 
