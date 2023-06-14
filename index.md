@@ -1,22 +1,5 @@
 L'assembleur est un langage de programmation qui permet de discuter directement avec le processeur. Lorsque vous utilisez un langage de haut niveau comme du **C** ou de très haut niveau comme du **Python**, vous codez à travers une couche d'abstraction plus ou moins épaisse. Ainsi, dans le cas des langages compilés, c'est le compilateur qui _traduit_ vos lignes de code compréhensibles par vous en langage machine compréhensible par le processeur.
 
-# Pour qui? 
-
-Cette formation est dédiée à la cybersécurité. La compréhension de l'assembleur x64 sera donc orientée en ce sens. Toutes les subtilités liées à ce langage ne seront donc pas vues. 
-
-Grosso modo, deux grandes familles sont retrouvées dans le monde de la cybersécurité:
-
-* l'attaque (_red team_)
-* la défense (_blue team_)
-_
-Que vous apparteniez à l'une ou à l'autre, cette formation est faite pour vous. Que vous soyez du côté **exécutif** ou **managérial** également. Aucune notion d'assembleur n'est requise pour suivre cette formation qui est principalement dédiée aux **débutants**.
-
-Pour ceux qui appartiennent au côté défensif, il est intéressant de connaître l'assembleur car l'analyse de code malveillant est en grande partie effectuée dans ce langage. En effet, lorsqu'une machine se fait compromettre, les binaires malveillants en sont extraits (soit directement, soit par capture de **RAM**) puis analysés. Le code source n'étant pas disponible, il est alors nécessaire de le désassembler afin d'en comprendre les fonctionnalités et d'en tirer des indices de compromission.
-
-Concernant ceux qui sont du côté offensif, la modification de shellcodes existants ou la création de shellcodes optimisés pour une attaque en particulier est un avantage décisif. Effectivement, il n'est pas recommandé d'utiliser n'importe quel shellcode trouvé sur le net. D'autant que la plupart de ceux disponibles ont déjà été catégorisés comme malveillant par les solution d'antivirus.
-
-Pour résumer, cette formation s'adresse à tous ceux curieux d'apprendre à utiliser l'assembleur pour analyser les attaques modernes, mais aussi pour contourner les signatures mises en place dans les antivirus.
-
 # Objectifs de la formation
 
 La formation est axée à 90% sur Windows. En effet, la plupart des entreprises ayant un **Active Directory** et des _workstations_ fonctionnant sur Windows, il est fort à parier que lors d'une compromission, un **PE** ou une **DLL** soit en cause.
@@ -46,6 +29,23 @@ A la suite de cette formation, il sera notamment possible de:
 Comme il ne s'agit pas d'une formation au format vidéo pré-enregistré, il est recommandé de poser un maximum de questions.
 ```
 
+# Pour qui? 
+
+Cette formation est dédiée à la cybersécurité. La compréhension de l'assembleur x64 sera donc orientée en ce sens. Toutes les subtilités liées à ce langage ne seront donc pas vues. 
+
+Grosso modo, deux grandes familles sont retrouvées dans le monde de la cybersécurité:
+
+* l'attaque (_red team_)
+* la défense (_blue team_)
+_
+Que vous apparteniez à l'une ou à l'autre, cette formation est faite pour vous. Que vous soyez du côté **exécutif** ou **managérial** également. Aucune notion d'assembleur n'est requise pour suivre cette formation qui est principalement dédiée aux **débutants**.
+
+Pour ceux qui appartiennent au côté défensif, il est intéressant de connaître l'assembleur car l'analyse de code malveillant est en grande partie effectuée dans ce langage. En effet, lorsqu'une machine se fait compromettre, les binaires malveillants en sont extraits (soit directement, soit par capture de **RAM**) puis analysés. Le code source n'étant pas disponible, il est alors nécessaire de le désassembler afin d'en comprendre les fonctionnalités et d'en tirer des indices de compromission.
+
+Concernant ceux qui sont du côté offensif, la modification de shellcodes existants ou la création de shellcodes optimisés pour une attaque en particulier est un avantage décisif. Effectivement, il n'est pas recommandé d'utiliser n'importe quel shellcode trouvé sur le net. D'autant que la plupart de ceux disponibles ont déjà été catégorisés comme malveillant par les solution d'antivirus.
+
+Pour résumer, cette formation s'adresse à tous ceux curieux d'apprendre à utiliser l'assembleur pour analyser les attaques modernes, mais aussi pour contourner les signatures mises en place dans les antivirus.
+
 # Modalités
 
 Cette formation est proposée en cours du soir comme suit:
@@ -71,9 +71,17 @@ Le CPF n'est pas pris en charge.
 Aucun certificat d'accomplissement ne sera délivré.
 ```
 
+# Contact
+
+...
+
 # Prérequis
 
-Afin de pouvoir suivre la formation, il est nécessaire d'avoir un environnement adéquate. Cela nécessite:
+```
+Merci de vérifier les prérequis suivants avant de souscrire à la formation.
+```
+
+Afin de pouvoir suivre la formation, il est nécessaire d'avoir un environnement adéquate:
 
 * un processeur intel ou amd
 * un OS Windows et un OS Linux (kali)
