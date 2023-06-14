@@ -103,7 +103,7 @@ msfvenom -p windows/x64/messagebox -a x64 --platform windows -f hex
 
 ### Windows
 
-Il est recommandé d'utiliser une version de développement fournie par [Microsoft](https://developer.microsoft.com/fr-fr/windows/downloads/virtual-machines/). En effet, tout les outils de compilation sont déjà pré-installés. **Attention**, la _VM_ est plutôt lourde ...
+Il est recommandé d'utiliser une version de développement fournie par [Microsoft](https://developer.microsoft.com/fr-fr/windows/downloads/virtual-machines/). En effet, l'ensemble des outils de compilation sont déjà pré-installés. **Attention**, la _VM_ est plutôt lourde ...
 
 Plutôt que d'installer la _VM_ de développement fournie par Microsoft, il est possible d'installer une **ISO** classique puis d'installer les outils à la main. Pour cela:
 
@@ -119,11 +119,11 @@ Afin de débugger du code, il est nécessaire d'installer un debugger:
 
 Il peut être utile d'installer un désassembleur comme [IDA Free](https://hex-rays.com/ida-free/)
 
-Installer ensuite [Visual Studio Code](https://code.visualstudio.com/download) comme éditeur de code. Une fois installé, ajouter le plugins **ASM Code Lens** (coloration syntaxique) comme sur la figure ci-dessous:
+Installer ensuite [Visual Studio Code](https://code.visualstudio.com/download) comme éditeur de code. Une fois installé, ajouter le _plugin_ **ASM Code Lens** (coloration syntaxique) comme sur la figure ci-dessous:
 
 ![asm code lens](/img/index/asm_code_lens.png)
 
 Un éditeur hexadécimal est également requis, utiliser [HxD](https://www.lesnumeriques.com/telecharger/hxd-hex-editor-20536) par exemple.
 
-Et enfin, télécharger et installé l'outil [CFF Explorer](https://ntcore.com/?page_id=388) afin de constater la structure d'un exécutable.
+Et enfin, télécharger et installer l'outil [CFF Explorer](https://ntcore.com/?page_id=388) afin de constater la structure de vos création :)
 
