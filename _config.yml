@@ -1,5 +1,5 @@
 remote_theme: pages-themes/midnight@v0.2.0
-title: Formation asm x64
-description: Formation asm x64
+title: Obscurcissement, Injection et Shellcode
+description: Formations asm x64
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
