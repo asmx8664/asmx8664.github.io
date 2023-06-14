@@ -71,10 +71,6 @@ Le CPF n'est pas pris en charge.
 Aucun certificat d'accomplissement ne sera délivré.
 ```
 
-# Contact
-
-...
-
 # Prérequis
 
 ```
@@ -127,3 +123,10 @@ Un éditeur hexadécimal est également requis, utiliser [HxD](https://www.lesnu
 
 Et enfin, télécharger et installer l'outil [CFF Explorer](https://ntcore.com/?page_id=388) afin de constater la structure de vos création :)
 
+# Contact
+
+Il est possible de me contacter via :
+
+* [Linkedin](https://www.linkedin.com/in/hugo-bitard-827053b6/)
+* mail: asm [.] x8664 [@] proton [.] me
+* Discord
