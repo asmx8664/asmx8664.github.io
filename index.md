@@ -37,7 +37,7 @@ Grosso modo, deux grandes familles sont retrouvées dans le monde de la cybersé
 
 * l'attaque (_red team_)
 * la défense (_blue team_)
-_
+
 Que vous apparteniez à l'une ou à l'autre, cette formation est faite pour vous. Que vous soyez du côté **exécutif** ou **managérial** également. Aucune notion d'assembleur n'est requise pour suivre cette formation qui est principalement dédiée aux **débutants**.
 
 Pour ceux qui appartiennent au côté défensif, il est intéressant de connaître l'assembleur car l'analyse de code malveillant est en grande partie effectuée dans ce langage. En effet, lorsqu'une machine se fait compromettre, les binaires malveillants en sont extraits (soit directement, soit par capture de **RAM**) puis analysés. Le code source n'étant pas disponible, il est alors nécessaire de le désassembler afin d'en comprendre les fonctionnalités et d'en tirer des indices de compromission.
