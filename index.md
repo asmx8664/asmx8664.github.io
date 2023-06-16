@@ -42,7 +42,7 @@ Que vous apparteniez à l'une ou à l'autre, cette formation est faite pour vous
 
 Pour ceux qui appartiennent au côté défensif, il est intéressant de connaître l'assembleur car l'analyse de code malveillant est en grande partie effectuée dans ce langage. En effet, lorsqu'une machine se fait compromettre, les binaires malveillants en sont extraits (soit directement, soit par capture de **RAM**) puis analysés. Le code source n'étant pas disponible, il est alors nécessaire de le désassembler afin d'en comprendre les fonctionnalités et d'en tirer des indices de compromissions.
 
-Concernant ceux qui sont du côté offensif, la modification de shellcodes existants ou la création de shellcodes optimisés pour une attaque en particulier est un avantage décisif. Effectivement, il n'est pas recommandé d'utiliser n'importe quel shellcode trouvé sur le net. D'autant que la plupart de ceux disponibles ont déjà été catégorisés comme malveillant par les solution d'antivirus.
+Concernant ceux qui sont du côté offensif, la modification de shellcodes existants ou la création de shellcodes optimisés pour une attaque en particulier est un avantage décisif. Effectivement, il n'est pas recommandé d'utiliser n'importe quel shellcode trouvé sur le net. D'autant que la plupart de ceux disponibles ont déjà été catégorisés comme malveillant par les solutions d'antivirus.
 
 Pour résumer, cette formation s'adresse à tous ceux curieux d'apprendre à utiliser l'assembleur pour analyser les attaques modernes, mais aussi pour contourner les signatures mises en place dans les antivirus.
 
@@ -77,7 +77,7 @@ Aucun certificat d'accomplissement ne sera délivré.
 Merci de vérifier les prérequis suivants avant de souscrire à la formation.
 ```
 
-Pour suivre correctement la formation, il est nécessaire d'avoir un environnement adéquate:
+Pour suivre correctement la formation, il est nécessaire d'avoir un environnement adéquat:
 
 * un processeur intel ou amd
 * un OS Windows **ET** un OS Linux (kali)
