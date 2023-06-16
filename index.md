@@ -130,3 +130,9 @@ Il est possible de me contacter via :
 * [Linkedin](https://www.linkedin.com/in/hugo-bitard-827053b6/)
 * mail: hugo [.] bitard [@] proton [.] me
 * [Discord](https://discord.gg/4Nt5UqbQZa)
+
+# Pour aller plus loin
+
+Cette formation est une initiation à l'assembleur x64 d'un point de vue de la cybersécurité. Il est possible d'approfondir les points abordés via la lecture de l'ouvrage: **Obscurcissement, Injection et Shellcode** disponible sur Amazon.
+
+![book cover](/img/index/book_cover.png)
