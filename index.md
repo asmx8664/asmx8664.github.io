@@ -23,7 +23,7 @@ A la suite de cette formation, il sera notamment possible de:
 * Coder son propre loader de _shellcode_
 * Coder son propre _shellcode_
 * Modifier les _shellcodes_ générés par **msfvenom** pour contourner **Defender**
-* Debugger un programme
+* Debugger/analyser un programme/_shellcode_
 
 ```
 Comme il ne s'agit pas d'une formation au format vidéo pré-enregistré, il est recommandé de poser un maximum de questions.
