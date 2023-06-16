@@ -77,7 +77,7 @@ Aucun certificat d'accomplissement ne sera délivré.
 Merci de vérifier les prérequis suivants avant de souscrire à la formation.
 ```
 
-Afin de pouvoir suivre la formation, il est nécessaire d'avoir un environnement adéquate:
+Pour suivre correctement la formation, il est nécessaire d'avoir un environnement adéquate:
 
 * un processeur intel ou amd
 * un OS Windows **ET** un OS Linux (kali)
@@ -85,7 +85,7 @@ Afin de pouvoir suivre la formation, il est nécessaire d'avoir un environnement
 
 ## Installation des OS
 
-L'idéal est d'avoir une machine virtuelle Windows et une machine virtuelle Linux. Cependant, si la **RAM** n'est pas suffisante pour faire tourner 2 _VMs_, il est possible d'utiliser l'hôte, soit pour Windows, soit pour Linux.
+L'idéal est d'avoir une machine virtuelle Windows et une machine virtuelle Linux ([VMWare](https://www.vmware.com/fr/products/workstation-player.html) ou [VirtualBox](https://www.virtualbox.org/)). Cependant, si la **RAM** de votre machine hôte n'est pas suffisante pour faire tourner 2 _VMs_, il est possible d'utiliser l'hôte, soit pour Windows, soit pour Linux et de n'avoir alors qu'une seule _VM_ à mettre en place.
 
 ### Linux
 
@@ -101,10 +101,10 @@ msfvenom -p windows/x64/messagebox -a x64 --platform windows -f hex
 
 Il est recommandé d'utiliser une version de développement fournie par [Microsoft](https://developer.microsoft.com/fr-fr/windows/downloads/virtual-machines/). En effet, l'ensemble des outils de compilation sont déjà pré-installés. **Attention**, la _VM_ est plutôt lourde ...
 
-Plutôt que d'installer la _VM_ de développement fournie par Microsoft, il est possible d'installer une **ISO** classique puis d'installer les outils à la main. Pour cela:
+Plutôt que d'installer la _VM_ de développement fournie par Microsoft, il est possible d'installer une **ISO** classique puis d'installer uniquement les outils nécessaires. Pour cela:
 
 * Télécharger [Visual Studio Installer (Community)](https://visualstudio.microsoft.com/fr/downloads/)
-* Et choisir la suite de **Développment Desktop en C++**. Consulter la figure ci-dessous pour choisir les composants à installer
+* Choisir la suite de **Développment Desktop en C++**. Consulter la figure ci-dessous pour choisir les composants à installer
 
 ![C++ components](/img/index/cpp_components.png)
 
@@ -113,7 +113,7 @@ Afin de débugger du code, il est nécessaire d'installer un debugger:
 * **WinDbg Preview** depuis le Microsoft Store
 * **x64dbg** depuis ce [lien](https://x64dbg.com/)
 
-Il peut être utile d'installer un désassembleur comme [IDA Free](https://hex-rays.com/ida-free/)
+Il peut être utile d'installer un désassembleur comme [IDA Free](https://hex-rays.com/ida-free/).
 
 Installer ensuite [Visual Studio Code](https://code.visualstudio.com/download) comme éditeur de code. Une fois installé, ajouter le _plugin_ **ASM Code Lens** (coloration syntaxique) comme sur la figure ci-dessous:
 
@@ -121,7 +121,7 @@ Installer ensuite [Visual Studio Code](https://code.visualstudio.com/download) c
 
 Un éditeur hexadécimal est également requis, utiliser [HxD](https://www.lesnumeriques.com/telecharger/hxd-hex-editor-20536) par exemple.
 
-Et enfin, télécharger et installer l'outil [CFF Explorer](https://ntcore.com/?page_id=388) afin de constater la structure de vos création :)
+Et enfin, télécharger et installer l'outil [CFF Explorer](https://ntcore.com/?page_id=388) afin de constater la structure de vos créations :)
 
 # Contact
 
@@ -129,4 +129,4 @@ Il est possible de me contacter via :
 
 * [Linkedin](https://www.linkedin.com/in/hugo-bitard-827053b6/)
 * mail: asm [.] x8664 [@] proton [.] me
-* Discord
+* [Discord](https://discord.gg/w6hFH5xREu)
