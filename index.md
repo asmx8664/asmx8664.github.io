@@ -123,6 +123,12 @@ Un éditeur hexadécimal est également requis, utiliser [HxD](https://www.lesnu
 
 Et enfin, télécharger et installer l'outil [CFF Explorer](https://ntcore.com/?page_id=388) afin de constater la structure de vos créations :)
 
+# Pour aller plus loin
+
+Cette formation est une initiation à l'assembleur x64 d'un point de vue de la cybersécurité. Il est possible d'approfondir les points abordés via la lecture de l'ouvrage: **Obscurcissement, Injection et Shellcode** disponible sur Amazon.
+
+![book cover](/img/index/book_cover.png)
+
 # Contact
 
 Il est possible de me contacter via :
@@ -130,9 +136,3 @@ Il est possible de me contacter via :
 * [Linkedin](https://www.linkedin.com/in/hugo-bitard-827053b6/)
 * mail: hugo [.] bitard [@] proton [.] me
 * [Discord](https://discord.gg/4Nt5UqbQZa)
-
-# Pour aller plus loin
-
-Cette formation est une initiation à l'assembleur x64 d'un point de vue de la cybersécurité. Il est possible d'approfondir les points abordés via la lecture de l'ouvrage: **Obscurcissement, Injection et Shellcode** disponible sur Amazon.
-
-![book cover](/img/index/book_cover.png)
