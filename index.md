@@ -128,5 +128,5 @@ Et enfin, télécharger et installer l'outil [CFF Explorer](https://ntcore.com/?
 Il est possible de me contacter via :
 
 * [Linkedin](https://www.linkedin.com/in/hugo-bitard-827053b6/)
-* mail: asm [.] x8664 [@] proton [.] me
-* [Discord](https://discord.gg/w6hFH5xREu)
+* mail: hugo [.] bitard [@] proton [.] me
+* [Discord](https://discord.gg/4Nt5UqbQZa)
