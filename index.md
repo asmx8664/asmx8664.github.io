@@ -42,7 +42,7 @@ Que vous apparteniez à l'une ou à l'autre, cette formation est faite pour vous
 
 Pour ceux qui appartiennent au côté défensif, il est intéressant de connaître l'assembleur car l'analyse de code malveillant est en grande partie effectuée dans ce langage. En effet, lorsqu'une machine se fait compromettre, les binaires malveillants en sont extraits (soit directement, soit par capture de **RAM**) puis analysés. Le code source n'étant pas disponible, il est alors nécessaire de le désassembler afin d'en comprendre les fonctionnalités et d'en tirer des indices de compromissions.
 
-Concernant ceux qui sont du côté offensif, la modification de shellcodes existants ou la création de shellcodes optimisés pour une attaque en particulier est un avantage décisif. Effectivement, il n'est pas recommandé d'utiliser n'importe quel shellcode trouvé sur le net. D'autant que la plupart de ceux disponibles ont déjà été catégorisés comme malveillant par les solutions d'antivirus.
+Concernant ceux qui sont du côté offensif, la modification de _shellcodes_ existants ou la création de _shellcodes_ optimisés pour une attaque en particulier est un avantage décisif. Effectivement, il n'est pas recommandé d'utiliser n'importe quel _shellcode_ trouvé sur le net. D'autant que la plupart de ceux disponibles ont déjà été catégorisés comme malveillant par les solutions d'antivirus.
 
 Pour résumer, cette formation s'adresse à tous ceux curieux d'apprendre à utiliser l'assembleur pour analyser les attaques modernes, mais aussi pour contourner les signatures mises en place dans les antivirus.
 
@@ -99,7 +99,7 @@ msfvenom -p windows/x64/messagebox -a x64 --platform windows -f hex
 
 ### Windows
 
-Il est recommandé d'utiliser une version de développement fournie par [Microsoft](https://developer.microsoft.com/fr-fr/windows/downloads/virtual-machines/). En effet, l'ensemble des outils de compilation sont déjà pré-installés. **Attention**, la _VM_ est plutôt lourde ...
+Il est recommandé d'utiliser la version de développement fournie par [Microsoft](https://developer.microsoft.com/fr-fr/windows/downloads/virtual-machines/). En effet, l'ensemble des outils de compilation sont déjà pré-installés. **Attention**, la _VM_ est plutôt lourde ...
 
 Plutôt que d'installer la _VM_ de développement fournie par Microsoft, il est possible d'installer une **ISO** classique puis d'installer uniquement les outils nécessaires. Pour cela:
 
@@ -113,15 +113,17 @@ Afin de débugger du code, il est nécessaire d'installer un debugger:
 * **WinDbg Preview** depuis le Microsoft Store
 * **x64dbg** depuis ce [lien](https://x64dbg.com/)
 
-Il peut être utile d'installer un désassembleur comme [IDA Free](https://hex-rays.com/ida-free/).
+Les outils suivants sont à installer quelque soit la _VM_ Windows choisie.
 
-Installer ensuite [Visual Studio Code](https://code.visualstudio.com/download) comme éditeur de code. Une fois installé, ajouter le _plugin_ **ASM Code Lens** (coloration syntaxique) comme sur la figure ci-dessous:
+* Installer un désassembleur comme [IDA Free](https://hex-rays.com/ida-free/).
+
+* Installer ensuite [Visual Studio Code](https://code.visualstudio.com/download) comme éditeur de code. Une fois installé, ajouter le _plugin_ **ASM Code Lens** (coloration syntaxique) comme sur la figure ci-dessous:
 
 ![asm code lens](/img/index/asm_code_lens.png)
 
-Un éditeur hexadécimal est également requis, utiliser [HxD](https://www.lesnumeriques.com/telecharger/hxd-hex-editor-20536) par exemple.
+* Un éditeur hexadécimal est également requis, utiliser [HxD](https://www.lesnumeriques.com/telecharger/hxd-hex-editor-20536) par exemple.
 
-Et enfin, télécharger et installer l'outil [CFF Explorer](https://ntcore.com/?page_id=388) afin de constater la structure de vos créations :)
+* Télécharger et installer l'outil [CFF Explorer](https://ntcore.com/?page_id=388) afin de constater la structure de vos créations :)
 
 # Pour aller plus loin
 
