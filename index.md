@@ -127,7 +127,7 @@ Les outils suivants sont à installer quelque soit la _VM_ Windows choisie.
 
 # Pour aller plus loin
 
-Cette formation est une initiation à l'assembleur x64 d'un point de vue de la cybersécurité. Il est possible d'approfondir les points abordés via la lecture de l'ouvrage: **Obscurcissement, Injection et Shellcode** disponible sur Amazon.
+Cette formation est une initiation à l'assembleur x64 d'un point de vue de la cybersécurité. Il est possible d'approfondir les points abordés via la lecture de l'ouvrage: **Obscurcissement, Injection et Shellcode** disponible sur [Amazon](https://amzn.eu/d/8SRSZAT).
 
 ![book cover](/img/index/book_cover.png)
 
